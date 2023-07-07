@@ -35,6 +35,4 @@ jobs:
           token: ${{ secrets.DEPLOY_TOKEN }}
 
       - name: Set theme
-        run: |
-          bundle exec jekyll new . --force
-          bundle exec jekyll theme minima --force
+        run: bundle exec jekyll theme minima --force
