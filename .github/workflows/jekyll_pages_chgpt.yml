@@ -22,7 +22,7 @@ jobs:
         run: gem install bundler
 
       - name: Install dependencies
-        run: bundle install
+        run: bundle install --without development:test:windows
 
       - name: Build the site
         run: bundle exec jekyll build
