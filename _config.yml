@@ -1,1 +1,33 @@
+# Site settings
+title: Verma Lab Notebook
+description: A brief description of my site.
+url: https://example.com
+baseurl: "" # If your site is hosted in a subdirectory, specify the base URL relative to the domain.
+
+# Author information
+author:
+  name: John Doe
+  email: johndoe@example.com
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+plugins:
+  - jekyll-feed
+
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
+# Pagination
+paginate: 10
+
+# Collections
+collections:
+  labmembers:
+    output: true
+    permalink: /labmembers/:title/
+
+# Theme
 theme: minima
