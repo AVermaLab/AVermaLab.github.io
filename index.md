@@ -8,7 +8,7 @@ This is the central hub for documenting our lab's research, experiments, and fin
 
 ## Lab Members
 
-- [Lab Member 1](./_posts/singhal.md)
+- [Pankhuri Singhal](./_posts/singhal.md)
 
 Feel free to explore the lab members' pages and browse through their contributions. If you have any questions or comments, please reach out to us.
 
