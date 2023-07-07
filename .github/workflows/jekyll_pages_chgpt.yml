@@ -33,6 +33,3 @@ jobs:
           branch: gh-pages
           folder: _site
           token: ${{ secrets.DEPLOY_TOKEN }}
-
-      - name: Set theme
-        run: bundle exec jekyll theme minima --force
